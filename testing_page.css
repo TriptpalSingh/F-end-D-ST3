@@ -1,0 +1,125 @@
+.cuss{
+    /* border: solid 1px black; */
+    background-color: rgba(255, 184, 244, 0.5);
+}
+
+#submit_btn{
+    margin-top: 1vh;
+}
+
+#separator{
+    margin: 1vh 20px 0 20px;
+    display: inline-block;
+    border: solid 1px rgba(113, 86, 189, 0.5);
+    height: 5vh;
+    width: 0px;
+}
+
+#ques_num_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+#prev_ques_div, #next_ques_div{
+    height: 8vh;
+    width: 5vw;
+    /* background-color: black; */
+    border-radius: 50%;
+}
+
+#ques_list_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 50vw;
+    /* background-color: beige; */
+}
+
+#ques_list li{
+    color: white;
+    background-color: rgba(113, 86, 189, 0.8);
+    margin-top: 10px;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
+    /* border: solid 1px black; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.lii, .option_divs{
+    cursor: pointer;
+}
+
+#outer_ques_option_div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ques_div, #option_div{
+    width: 49%;
+    height: 450px;
+    /* border: solid 1px black; */
+}
+
+.option_divs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.spans{
+    margin-left: 10px;
+}
+
+#score_outer{
+    border: solid 1px black;
+    position: absolute;
+    margin-top: 0px;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 20;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#score{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 40;
+    box-shadow: 0px 0px 15px white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#score p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
